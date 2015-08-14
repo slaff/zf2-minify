@@ -99,4 +99,21 @@ return array(
             ),
         ),
     ),
+    
+    'TpMinify' => array(
+        'serveOptions' => array(
+            'minApp' => array(
+                'groups' => array(
+                    'css' => array(
+                        '//../public/css/bootstrap-theme.css',
+                        '//../public/css/style.css',
+                        '//css/big.css'
+                    ),
+                    'js' => array(
+                        '//js/test.js'
+                    )
+                )
+            )
+        )
+    )
 );

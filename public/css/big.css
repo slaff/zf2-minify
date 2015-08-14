@@ -1,0 +1,7 @@
+input[type=textarea] {
+	border: 1px solid black;
+}
+
+.bold {
+	text-background: black; 
+}
